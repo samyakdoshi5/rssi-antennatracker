@@ -215,14 +215,13 @@ Earlier revisions include additional SolidWorks source files and intermediate ST
 
 ## PCB Files
 
-`pcb (draft)/` contains a draft KiCad project plus exported manufacturing files:
+`pcb (draft)/` contains a draft KiCad project:
 
-- `Triversity-Tracker/main/main.kicad_pro`
-- `Triversity-Tracker/main/main.kicad_sch`
-- `Triversity-Tracker/main/main.kicad_pcb`
-- Gerber, drill, and zipped export files for the draft board
+- `main.kicad_pro` — Project file
+- `main.kicad_sch` — Schematic
+- `main.kicad_pcb` — PCB layout
 
-Treat these as draft fabrication assets until they have been checked against the latest mechanical and wiring changes.
+Treat this as a draft design until it has been checked against the latest mechanical and wiring changes. Manufacturing files (Gerber, drill, etc.) have not yet been exported.
 
 ## Quick Tuning Order
 
