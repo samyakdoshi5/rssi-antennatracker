@@ -32,7 +32,6 @@ namespace Buttons {
         UPDATE_BUTTON(UP);
         UPDATE_BUTTON(DOWN);
         UPDATE_BUTTON(MODE);
-        UPDATE_BUTTON(SAVE);
 
         #undef UPDATE_BUTTON
     }

@@ -91,7 +91,6 @@ void setupPins() {
     pinMode(PIN_BUTTON_UP, INPUT_PULLUP);
     pinMode(PIN_BUTTON_MODE, INPUT_PULLUP);
     pinMode(PIN_BUTTON_DOWN, INPUT_PULLUP);
-    pinMode(PIN_BUTTON_SAVE, INPUT_PULLUP);
     pinMode(PIN_TRACKER_SERVO, OUTPUT);
 
     pinMode(PIN_LED_A,OUTPUT);

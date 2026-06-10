@@ -112,7 +112,6 @@ SOFTWARE.
 
 // Buttons (optional, for comfort)
 #define PIN_BUTTON_DOWN 3
-#define PIN_BUTTON_SAVE 5
 
 #define PIN_LED 13
 #define PIN_BUZZER 6 // Must be an active buzzer, not passive.

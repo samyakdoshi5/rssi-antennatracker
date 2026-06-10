@@ -242,7 +242,7 @@ void TrackerStateHandler::onButtonChange(
     Button button,
     Buttons::PressType pressType
 ) {
-    if (button == Button::SAVE && pressType == Buttons::PressType::SHORT) {
+    if (button == Button::MODE && pressType == Buttons::PressType::SHORT) {
         servoPwm = TRACKER_SERVO_STOP_US;
         targetPwm = TRACKER_SERVO_STOP_US;
         panServo.writeMicroseconds(servoPwm);
