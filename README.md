@@ -40,8 +40,6 @@ Arduino firmware, PCB drafts, and printable enclosure files for an RX5808/RX58xx
 | Receiver A RSSI | `A7` |
 | Receiver B RSSI | `A6` |
 
-`code/buttontest/buttontest.ino` also tests a fourth `SAVE` button on pin `5`, but the active tracker firmware currently uses only `UP`, `DOWN`, and `MODE`.
-
 ## Firmware Configuration
 
 Main configuration lives in:
